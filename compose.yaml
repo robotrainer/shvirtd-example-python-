@@ -3,7 +3,7 @@ include:
 
 services:
   web:
-    image: cr.yandex/${REGISTRY_ID}/shvirtd-example-python@sha256:5ff56c4fbac4843739f96b72e529d8bb6f2e52ad7c2a9abc946b2a59e4386381
+    image: cr.yandex/${REGISTRY_ID}/shvirtd-example-python@sha256:4f4d3412c19f42145c35d0c5f45be44ab98eac331ccb8073d7e0d43cd36f8c56
     restart: always
     networks:
       backend:
