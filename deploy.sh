@@ -11,7 +11,7 @@ else
     git clone "${REPO_URL}" "${PROJECT_DIR}"
 fi
 
-sudo cp .env "${PROJECT_DIR}"/.env
+cp .env "${PROJECT_DIR}"/.env
 
 cd "${PROJECT_DIR}"
 docker compose up -d

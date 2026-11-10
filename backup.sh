@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -a
-source /opt/scripts/.env.backup
+source .env.backup
 set +a
 
 set -e
