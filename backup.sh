@@ -1,7 +1,10 @@
 #!/bin/bash
 
+REPO_URL="https://github.com/robotrainer/shvirtd-example-python-.git"
+PROJECT_DIR="/opt/$(basename "${REPO_URL%.git}")"
+
 set -a
-source .env.backup
+source "${PROJECT_DIR}/.env.backup"
 set +a
 
 set -e
